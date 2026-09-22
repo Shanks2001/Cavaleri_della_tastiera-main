@@ -113,6 +113,9 @@ void chiamate_salvate(int *LIFE, int *cake){
         break;
         case 9:
         lvl_9(LIFE, cake);
-        break;    
+        break;
+        case 10:
+        BOSS(LIFE, cake);
+        break; 
     }
 }
