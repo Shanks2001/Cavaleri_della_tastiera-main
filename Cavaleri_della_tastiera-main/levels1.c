@@ -20,7 +20,7 @@ void lvl_1(int *LIFE, int *cake)
     {
         setColor(3,0);
         printSlowly("\n  \t\t\t\t -- DOMANDA NUMERO 1 -- \n", DELAY);//a
-        
+        mostraVite(*LIFE);
         printSlowly("  \t\t\t\tA cosa serve la printf?\n", DELAY);
         printSlowly("  \t\t\t\tA) Stampa il testo su schermo\n", DELAY);
         printSlowly("  \t\t\t\tB) Legge un numero intero inserito dall'utente\n", DELAY);
@@ -46,7 +46,7 @@ void lvl_1(int *LIFE, int *cake)
     {
         setColor(3, 0);
         printSlowly("  \t\t\t\t -- DOMANDA NUMERO 2 -- \n", DELAY); //c
-
+        mostraVite(*LIFE);
         printSlowly("  \t\t\t\tA cosa serve la scanf?\n", DELAY);
         printSlowly("  \t\t\t\tA) Permette di iterare un valore\n", DELAY);
         printSlowly("  \t\t\t\tB) Aggiunge uno spazio prima di inserire l'input\n", DELAY);
@@ -74,7 +74,7 @@ void lvl_1(int *LIFE, int *cake)
     {
         setColor(3, 0);
         printSlowly("  \t\t\t\t--DOMANDA NUMERO 3 --\n", DELAY);//a
-
+        mostraVite(*LIFE);
         printSlowly("  \t\t\t\tA cosa serve l'if?", DELAY);
         printSlowly("\n\t\t\t\tA) Permette di eseguire determinate istruzioni solo se una condizione specificata e' vera\n", DELAY);
         printSlowly("  \t\t\t\tB) Permette di eseguire un altro blocco di istruzioni\n", DELAY);
@@ -98,7 +98,7 @@ void lvl_1(int *LIFE, int *cake)
    
     }while(risposta!=1);
     
-    system("cls");
+    clenScreen(*LIFE);
     file(cake);
     lvl_2(LIFE, cake);
 }
@@ -111,6 +111,7 @@ void lvl_2(int *LIFE, int *cake)
     do{
         setColor(3, 0);
         printSlowly("  \t\t\t\t--DOMANDA NUMERO 1--\n ", DELAY);//b
+        mostraVite(*LIFE);
         printSlowly("  \t\t\t\tA cosa serve la for?\n", DELAY);
         printSlowly("  \t\t\t\tA) Permette di eseguire determinate istruzioni solo se una condizione specificata e' vera\n", DELAY);
         printSlowly("  \t\t\t\tB) E' utilizzato per eseguire un blocco di istruzioni un numero fissato di volte\n", DELAY);
@@ -136,6 +137,7 @@ void lvl_2(int *LIFE, int *cake)
     {
         setColor(3, 0);
         printSlowly("  \t\t\t\t--DOMANDA NUMERO 2--\n", DELAY);//b
+        mostraVite(*LIFE);
         printSlowly("  \t\t\t\tA cosa serve la while?", DELAY);
         printSlowly("\n\t\t\t\tA) Permette di eseguire determinate istruzioni solo se una condizione specificata e' vera\n", DELAY);
         printSlowly("  \t\t\t\tB) E' utilizzato per eseguire un blocco di istruzioni finche' una condizione specificata e' vera.\n", DELAY);
@@ -160,6 +162,7 @@ void lvl_2(int *LIFE, int *cake)
     do{
         setColor(3, 0);
         printSlowly("  \t\t\t\t--DOMANDA NUMERO 3--\n ", DELAY);//c
+        mostraVite(*LIFE);
         printSlowly("  \t\t\t\tA cosa serve la do while?\n", DELAY);
         printSlowly("  \t\t\t\tA) E' utilizzato per eseguire un blocco di istruzioni un numero fissato di volte\n", DELAY);
         printSlowly("  \t\t\t\tB) Permette di eseguire un altro blocco di istruzioni\n", DELAY);
@@ -181,7 +184,7 @@ void lvl_2(int *LIFE, int *cake)
     
     }while(risposta != 3);
 
-    system("cls");
+    clenScreen(*LIFE);
     file(cake);
     lvl_3(LIFE, cake);
     
@@ -196,6 +199,7 @@ void lvl_3(int *LIFE, int *cake)
     {
         setColor(3, 0);
         printSlowly("\n  \t\t\t\t -- DOMANDA NUMERO 1 -- \n", DELAY);
+        mostraVite(*LIFE);
         printSlowly("  \t\t\t\tcosa manca?\n", DELAY);
         setColor(8, 0);
         printSlowly("  \t\t\t\tfor(i = 0; i < 15; i++){\n", DELAY);
@@ -230,6 +234,7 @@ void lvl_3(int *LIFE, int *cake)
     {   
         setColor(3, 0);
         printSlowly("\n  \t\t\t\t -- DOMANDA NUMERO 2 -- \n", DELAY);
+        mostraVite(*LIFE);
         printSlowly("  \t\t\t\tcosa manca?\n", DELAY);
         setColor(8, 0);
         printSlowly("  \t\t\t\tchar a;\n", DELAY);
@@ -260,6 +265,7 @@ void lvl_3(int *LIFE, int *cake)
     {
         setColor(3, 0);
         printSlowly("\n  \t\t\t\t -- DOMANDA NUMERO 3 -- \n", DELAY);
+        mostraVite(*LIFE);
         printSlowly("  \t\t\t\tcosa manca?\n", DELAY);
         setColor(8, 0);
         printSlowly("  \t\t\t\tdo {\n", DELAY);
@@ -288,7 +294,7 @@ void lvl_3(int *LIFE, int *cake)
    
     }while(risposta != 3);
 
-    system("cls");
+    clenScreen(*LIFE);
     file(cake);
     lvl_4(LIFE, cake);
 }
@@ -302,6 +308,7 @@ void lvl_4(int *LIFE, int *cake)
     {
         setColor(3, 0);
         printSlowly("\n  \t\t\t\t -- DOMANDA NUMERO 1 -- \n", DELAY);
+        mostraVite(*LIFE);
         printSlowly("  \t\t\t\tcosa manca?\n", DELAY);
         setColor(8, 0);
         printSlowly("  \t\t\t\t___(i = 0; i < 15; i++){\n", DELAY);
@@ -335,6 +342,7 @@ void lvl_4(int *LIFE, int *cake)
     {
         setColor(3, 0);
         printSlowly("\n  \t\t\t\t -- DOMANDA NUMERO 2 -- \n", DELAY);
+        mostraVite(*LIFE);
         printSlowly("  \t\t\t\tcosa manca?\n", DELAY);
         setColor(8, 0);
         printSlowly("  \t\t\t\tint palindromo(char parola[]){\n", DELAY);
@@ -368,6 +376,7 @@ void lvl_4(int *LIFE, int *cake)
     {
         setColor(3, 0);
         printSlowly("\n  \t\t\t\t -- DOMANDA NUMERO 3 -- \n", DELAY);
+        mostraVite(*LIFE);
         printSlowly("  \t\t\t\tcosa manca?\n", DELAY);
         setColor(8, 0);
         printSlowly("  \t\t\t\tint filtro(char a){\n", DELAY);
@@ -403,7 +412,7 @@ void lvl_4(int *LIFE, int *cake)
     
     }while(risposta!=1);
 
-    system("cls");
+    clenScreen(*LIFE);
     file(cake);
     lvl_5(LIFE, cake);
     
@@ -418,6 +427,7 @@ void lvl_5(int *LIFE, int *cake)
     {
         setColor(3, 0);
         printSlowly("\n  \t\t\t\t -- DOMANDA NUMERO 1 -- \n", DELAY);
+        mostraVite(*LIFE);
         printSlowly("  \t\t\t\tcosa manca?\n}", DELAY);
         setColor(8, 0);
         printSlowly("  \t\t\t\t#include<stdio.h>\n", DELAY);
@@ -469,6 +479,7 @@ void lvl_5(int *LIFE, int *cake)
     {
         setColor(3, 0);
         printSlowly("\n  \t\t\t\t -- DOMANDA NUMERO 2 -- \n", DELAY);
+        mostraVite(*LIFE);
         printSlowly("  \t\t\t\tcosa manca?\n", DELAY);
         setColor(8, 0);
         printSlowly("  \t\t\t\t#include<stdio.h>\n\n", DELAY);
@@ -514,6 +525,7 @@ void lvl_5(int *LIFE, int *cake)
     {
         setColor(3, 0);
         printSlowly("\n  \t\t\t\t -- DOMANDA NUMERO 3 -- \n", DELAY);
+        mostraVite(*LIFE);
         printSlowly("  \t\t\t\tcosa manca?\n", DELAY);
         setColor(8, 0);
         printSlowly("  \t\t\t\t#include<stdio.h>\n", DELAY);
@@ -554,7 +566,7 @@ void lvl_5(int *LIFE, int *cake)
     
     }while(risposta != 3);
 
-    system("cls");
+    clenScreen(*LIFE);
     file(cake);
     lvl_6(LIFE, cake);
     

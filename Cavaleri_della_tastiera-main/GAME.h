@@ -7,6 +7,7 @@
 #include <unistd.h>
 #include <windows.h>
 
+#define MAX_VITE 3
 #define DELAY 10000
 #define MAX 100
 
@@ -20,6 +21,8 @@ void END(int LIFE, int *cake);
 void checklife(int LIFE, int *cake);
 void ripeti(int *LIFE, int *cake);
 int Scelta();
+void mostraVite(int LIFE);
+void clenScreen(int LIFE);
 void printSlowly(const char *text, unsigned int delay);
 void lvl_1(int *LIFE, int *cake);
 void lvl_2(int *LIFE, int *cake);
@@ -31,5 +34,7 @@ void lvl_7(int *LIFE, int *cake);
 void lvl_8(int *LIFE, int *cake);
 void lvl_9(int *LIFE, int *cake);
 void BOSS(int *LIFE, int *cake);
+
+
 
 #endif
