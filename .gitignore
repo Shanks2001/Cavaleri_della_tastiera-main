@@ -1,0 +1,18 @@
+# Eseguibili compilati
+*.exe
+*.out
+main
+!main.c
+
+# Object file
+*.o
+
+# File generati durante il gioco (progresso salvato in locale)
+salva.txt
+life.txt
+
+# File di sistema/editor
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
