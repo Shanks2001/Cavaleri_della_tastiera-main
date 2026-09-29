@@ -1,10 +1,8 @@
 # Cavalieri della Tastiera
 
-![build](https://github.com/<tuo-utente>/<tuo-repo>/actions/workflows/build.yml/badge.svg)
 
 Un gioco da terminale in C, in cui il giocatore affronta una serie di livelli a quiz sulla programmazione, culminando in uno scontro finale contro il "BOSS". Il progresso viene salvato su file e il giocatore ha un numero limitato di vite, mostrate a schermo in ogni domanda.
 
-> Sostituisci `<tuo-utente>/<tuo-repo>` nel badge qui sopra con il percorso reale del tuo repository GitHub perché la spunta di build si aggiorni correttamente.
 
 ## Requisiti
 
@@ -69,5 +67,4 @@ Ogni push e pull request sul branch principale vengono compilati automaticamente
 - Un punteggio/tempo di risposta oltre alle sole vite.
 
 ## Autori
-
-_Aggiungi qui i nomi degli autori del progetto._
+Shanks2001
