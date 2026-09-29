@@ -7,7 +7,7 @@
 #include <unistd.h>
 #include <windows.h>
 
-#define MAX_VITE 3
+
 #define DELAY 10000
 #define MAX 100
 

@@ -63,17 +63,12 @@ void printSlowly(const char *text, unsigned int delay)
 
 
 void mostraVite(int LIFE){
+    int perse = 3 - LIFE;
     setColor(4, 0);
     printf("\n\tVite: ");
-    for(int i=0; i<MAX_VITE; i++){
-        if(i<LIFE){
-            printf("[#] ");
-        }else{
-            printf("[] ");
-        }
-        printf("(%d/%d)\n\n", LIFE, MAX_VITE);
-        setColor(7, 0);
-    }
+    printf("[#] %d/3 ", perse);
+    printf("[] %d/3 ", LIFE);
+    setColor(7, 0);
 }
 
 void clenScreen(int LIFE){
