@@ -5,13 +5,13 @@
 #include <stdlib.h>
 #include <string.h>
 #include <unistd.h>
-#include <windows.h>
+#include "platform.h"
 
 
 #define DELAY 10000
 #define MAX 100
 
-void setColor(int textColor, int bgColor);
+
 void chiamate_salvate(int *LIFE, int *cake);
 void file(int *cake);
 void rea(int *cake);

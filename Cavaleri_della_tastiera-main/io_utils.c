@@ -2,13 +2,10 @@
 #include <stdlib.h>
 #include <string.h>
 #include <unistd.h>
-#include <windows.h>
+#include "platform.h"
 #include "GAME.h"
 
-void setColor(int textColor, int bgColor) {
-    HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
-    SetConsoleTextAttribute(hConsole, (bgColor << 4) | textColor);
-}
+
 
 int Scelta() {
     char buffer[MAX];
@@ -52,16 +49,6 @@ int Scelta() {
     return 4;
 }
 
-void printSlowly(const char *text, unsigned int delay) 
-{
-    while (*text) {
-        printf("%c", *text++);
-        fflush(stdout); 
-        Sleep(delay/1000); 
-    }
-}
-
-
 void mostraVite(int LIFE){
     int perse = 3 - LIFE;
     setColor(4, 0);
@@ -72,6 +59,6 @@ void mostraVite(int LIFE){
 }
 
 void clenScreen(int LIFE){
-    system("cls");
+    clearScreen();
     mostraVite(LIFE);
 }

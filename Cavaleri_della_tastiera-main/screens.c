@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <unistd.h>
-#include <windows.h>
+#include "platform.h"
 #include "GAME.h"
 
 void chiamate_salvate(int *LIFE, int *cake);
@@ -15,7 +15,7 @@ void checklife(int LIFE, int *cake)
 {
  if (LIFE == 0) 
         {
-            system("cls");
+            clearScreen();
             GAMEOVER(LIFE, cake);
         }
 }
@@ -48,7 +48,7 @@ void BENVENUTO(){
     printf("\n");
     printSlowly("\n\t\t\t\t\tschiacia un tasto e parti", DELAY);
     getchar();
-    system("cls");
+    clearScreen();
 }
 
 void ripeti(int *LIFE, int *cake){
