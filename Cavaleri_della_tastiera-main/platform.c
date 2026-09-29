@@ -36,6 +36,6 @@ void printSlowly(const char *text, unsigned int delay)
     while (*text) {
         printf("%c", *text++);
         fflush(stdout); 
-        Sleep(delay/1000); 
+        sleepMs(delay/1000); 
     }
 }

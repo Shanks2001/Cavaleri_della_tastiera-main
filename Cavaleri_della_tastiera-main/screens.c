@@ -5,11 +5,6 @@
 #include "platform.h"
 #include "GAME.h"
 
-void chiamate_salvate(int *LIFE, int *cake);
-void GAMEOVER(int LIFE, int *cake);
-void END(int LIFE, int *cake);
-void checklife(int LIFE, int *cake);
-void ripeti(int *LIFE, int *cake);
 
 void checklife(int LIFE, int *cake)
 {
