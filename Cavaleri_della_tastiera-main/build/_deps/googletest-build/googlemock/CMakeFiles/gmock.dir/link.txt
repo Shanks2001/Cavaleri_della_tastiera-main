@@ -1,0 +1,2 @@
+C:\Users\giova\AppData\Local\Microsoft\WinGet\Packages\BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\mingw64\bin\ar.exe qc ..\..\..\lib\libgmock.a "CMakeFiles/gmock.dir/src/gmock-all.cc.obj"
+C:\Users\giova\AppData\Local\Microsoft\WinGet\Packages\BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\mingw64\bin\ranlib.exe ..\..\..\lib\libgmock.a

@@ -1,0 +1,23 @@
+run_tests_NOT_BUILT 0 0
+Scelta.RiconosceAbcMaiuscoleEMinuscole 1 0.04708
+Scelta.IgnoraCaratteriNonValidiEPoiAccetta 1 1.37657
+ChiediScelta.RispostaGiustaNonTogliVite 1 0.76711
+ChiediScelta.RispostaSbagliataTogliUnaVitaEPoiRiprova 1 2.53594
+ChiediTesto.RispostaSbagliataTogliUnaVitaEPoiRiprova 1 1.65793
+ChiediTesto.RispostaGiustaNonTogliVite 1 0.307121
+Checklife.ConViteRimasteNonFaNulla 1 0.0277164
+Quiz.PerdereUltimaVitaPortaAlGameOverEdEsceConN 1 2.38244
+Save.FileIncrementaESalva 1 0.0338156
+Save.ReaLeggeIlSalvataggioEsistente 1 0.0305629
+Save.ReaSenzaFileCreaIlSalvataggioENonVaInCrash 1 0.0584427
+Domande.Livello1 1 0.0243812
+Domande.Livello2 1 0.0249553
+Domande.Livello3 1 0.0241057
+Domande.Livello4 1 0.025837
+Domande.Livello5 1 0.0237324
+Domande.Livello6 1 0.0252444
+Domande.Livello7 1 0.0231554
+Domande.Livello8 1 0.0233197
+Domande.Livello9 1 0.0235788
+Domande.BossScelteEBlankSonoValidi 1 0.0237744
+---

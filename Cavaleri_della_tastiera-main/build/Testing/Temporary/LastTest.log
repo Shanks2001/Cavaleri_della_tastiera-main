@@ -1,0 +1,632 @@
+Start testing: Nov 16 21:00 ora solare Europa occidentale
+----------------------------------------------------------
+1/21 Testing: Scelta.RiconosceAbcMaiuscoleEMinuscole
+1/21 Test: Scelta.RiconosceAbcMaiuscoleEMinuscole
+Command: "C:/Users/giova/Documents/GitHub/Cavaleri_della_tastiera-main/Cavaleri_della_tastiera-main/build/run_tests.exe" "--gtest_filter=Scelta.RiconosceAbcMaiuscoleEMinuscole" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/giova/Documents/GitHub/Cavaleri_della_tastiera-main/Cavaleri_della_tastiera-main/build
+"Scelta.RiconosceAbcMaiuscoleEMinuscole" start time: Nov 16 21:00 ora solare Europa occidentale
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\giova\Documents\GitHub\Cavaleri_della_tastiera-main\Cavaleri_della_tastiera-main\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = Scelta.RiconosceAbcMaiuscoleEMinuscole
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Scelta
+[ RUN      ] Scelta.RiconosceAbcMaiuscoleEMinuscole
+  				:  				:  				:[       OK ] Scelta.RiconosceAbcMaiuscoleEMinuscole (17 ms)
+[----------] 1 test from Scelta (17 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (17 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"Scelta.RiconosceAbcMaiuscoleEMinuscole" end time: Nov 16 21:00 ora solare Europa occidentale
+"Scelta.RiconosceAbcMaiuscoleEMinuscole" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/21 Testing: Scelta.IgnoraCaratteriNonValidiEPoiAccetta
+2/21 Test: Scelta.IgnoraCaratteriNonValidiEPoiAccetta
+Command: "C:/Users/giova/Documents/GitHub/Cavaleri_della_tastiera-main/Cavaleri_della_tastiera-main/build/run_tests.exe" "--gtest_filter=Scelta.IgnoraCaratteriNonValidiEPoiAccetta" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/giova/Documents/GitHub/Cavaleri_della_tastiera-main/Cavaleri_della_tastiera-main/build
+"Scelta.IgnoraCaratteriNonValidiEPoiAccetta" start time: Nov 16 21:00 ora solare Europa occidentale
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\giova\Documents\GitHub\Cavaleri_della_tastiera-main\Cavaleri_della_tastiera-main\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = Scelta.IgnoraCaratteriNonValidiEPoiAccetta
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Scelta
+[ RUN      ] Scelta.IgnoraCaratteriNonValidiEPoiAccetta
+  				:
+ 				 il caratere inserito non e' corretto
+				 usa un caretere in sovrimpressione
+  				:[       OK ] Scelta.IgnoraCaratteriNonValidiEPoiAccetta (1353 ms)
+[----------] 1 test from Scelta (1353 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1354 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   1.38 sec
+----------------------------------------------------------
+Test Passed.
+"Scelta.IgnoraCaratteriNonValidiEPoiAccetta" end time: Nov 16 21:00 ora solare Europa occidentale
+"Scelta.IgnoraCaratteriNonValidiEPoiAccetta" time elapsed: 00:00:01
+----------------------------------------------------------
+
+3/21 Testing: ChiediScelta.RispostaGiustaNonTogliVite
+3/21 Test: ChiediScelta.RispostaGiustaNonTogliVite
+Command: "C:/Users/giova/Documents/GitHub/Cavaleri_della_tastiera-main/Cavaleri_della_tastiera-main/build/run_tests.exe" "--gtest_filter=ChiediScelta.RispostaGiustaNonTogliVite" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/giova/Documents/GitHub/Cavaleri_della_tastiera-main/Cavaleri_della_tastiera-main/build
+"ChiediScelta.RispostaGiustaNonTogliVite" start time: Nov 16 21:00 ora solare Europa occidentale
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\giova\Documents\GitHub\Cavaleri_della_tastiera-main\Cavaleri_della_tastiera-main\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = ChiediScelta.RispostaGiustaNonTogliVite
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ChiediScelta
+[ RUN      ] ChiediScelta.RispostaGiustaNonTogliVite
+
+	Vite: [#] 0/3 [] 3/3   				A cosa serve la printf?
+  				A) Stampa il testo su schermo
+  				B) Legge un numero intero inserito dall'utente
+  				C) Permette di eseguire determinate istruzioni solo se una condizione specificata e' vera
+  				:
+  				Corretto!
+
+[       OK ] ChiediScelta.RispostaGiustaNonTogliVite (740 ms)
+[----------] 1 test from ChiediScelta (740 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (741 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.77 sec
+----------------------------------------------------------
+Test Passed.
+"ChiediScelta.RispostaGiustaNonTogliVite" end time: Nov 16 21:00 ora solare Europa occidentale
+"ChiediScelta.RispostaGiustaNonTogliVite" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/21 Testing: ChiediScelta.RispostaSbagliataTogliUnaVitaEPoiRiprova
+4/21 Test: ChiediScelta.RispostaSbagliataTogliUnaVitaEPoiRiprova
+Command: "C:/Users/giova/Documents/GitHub/Cavaleri_della_tastiera-main/Cavaleri_della_tastiera-main/build/run_tests.exe" "--gtest_filter=ChiediScelta.RispostaSbagliataTogliUnaVitaEPoiRiprova" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/giova/Documents/GitHub/Cavaleri_della_tastiera-main/Cavaleri_della_tastiera-main/build
+"ChiediScelta.RispostaSbagliataTogliUnaVitaEPoiRiprova" start time: Nov 16 21:00 ora solare Europa occidentale
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\giova\Documents\GitHub\Cavaleri_della_tastiera-main\Cavaleri_della_tastiera-main\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = ChiediScelta.RispostaSbagliataTogliUnaVitaEPoiRiprova
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ChiediScelta
+[ RUN      ] ChiediScelta.RispostaSbagliataTogliUnaVitaEPoiRiprova
+
+	Vite: [#] 0/3 [] 3/3   				A cosa serve la printf?
+  				A) Stampa il testo su schermo
+  				B) Legge un numero intero inserito dall'utente
+  				C) Permette di eseguire determinate istruzioni solo se una condizione specificata e' vera
+  				:
+  				Risposta sbagliata! 
+  				Hai perso una vita! 
+  				Adesso hai 2 vite 
+
+
+	Vite: [#] 1/3 [] 2/3   				A cosa serve la printf?
+  				A) Stampa il testo su schermo
+  				B) Legge un numero intero inserito dall'utente
+  				C) Permette di eseguire determinate istruzioni solo se una condizione specificata e' vera
+  				:
+  				Corretto!
+
+[       OK ] ChiediScelta.RispostaSbagliataTogliUnaVitaEPoiRiprova (2510 ms)
+[----------] 1 test from ChiediScelta (2510 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (2510 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   2.54 sec
+----------------------------------------------------------
+Test Passed.
+"ChiediScelta.RispostaSbagliataTogliUnaVitaEPoiRiprova" end time: Nov 16 21:00 ora solare Europa occidentale
+"ChiediScelta.RispostaSbagliataTogliUnaVitaEPoiRiprova" time elapsed: 00:00:02
+----------------------------------------------------------
+
+5/21 Testing: ChiediTesto.RispostaSbagliataTogliUnaVitaEPoiRiprova
+5/21 Test: ChiediTesto.RispostaSbagliataTogliUnaVitaEPoiRiprova
+Command: "C:/Users/giova/Documents/GitHub/Cavaleri_della_tastiera-main/Cavaleri_della_tastiera-main/build/run_tests.exe" "--gtest_filter=ChiediTesto.RispostaSbagliataTogliUnaVitaEPoiRiprova" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/giova/Documents/GitHub/Cavaleri_della_tastiera-main/Cavaleri_della_tastiera-main/build
+"ChiediTesto.RispostaSbagliataTogliUnaVitaEPoiRiprova" start time: Nov 16 21:00 ora solare Europa occidentale
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\giova\Documents\GitHub\Cavaleri_della_tastiera-main\Cavaleri_della_tastiera-main\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = ChiediTesto.RispostaSbagliataTogliUnaVitaEPoiRiprova
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ChiediTesto
+[ RUN      ] ChiediTesto.RispostaSbagliataTogliUnaVitaEPoiRiprova
+
+	Vite: [#] 0/3 [] 3/3 				1:
+  				Risposta sbagliata! 
+  				Hai perso una vita! 
+  				Adesso hai 2 vite 
+
+
+	Vite: [#] 1/3 [] 2/3 				1:
+					Corretto!
+
+[       OK ] ChiediTesto.RispostaSbagliataTogliUnaVitaEPoiRiprova (1632 ms)
+[----------] 1 test from ChiediTesto (1632 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1632 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   1.66 sec
+----------------------------------------------------------
+Test Passed.
+"ChiediTesto.RispostaSbagliataTogliUnaVitaEPoiRiprova" end time: Nov 16 21:01 ora solare Europa occidentale
+"ChiediTesto.RispostaSbagliataTogliUnaVitaEPoiRiprova" time elapsed: 00:00:01
+----------------------------------------------------------
+
+6/21 Testing: ChiediTesto.RispostaGiustaNonTogliVite
+6/21 Test: ChiediTesto.RispostaGiustaNonTogliVite
+Command: "C:/Users/giova/Documents/GitHub/Cavaleri_della_tastiera-main/Cavaleri_della_tastiera-main/build/run_tests.exe" "--gtest_filter=ChiediTesto.RispostaGiustaNonTogliVite" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/giova/Documents/GitHub/Cavaleri_della_tastiera-main/Cavaleri_della_tastiera-main/build
+"ChiediTesto.RispostaGiustaNonTogliVite" start time: Nov 16 21:01 ora solare Europa occidentale
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\giova\Documents\GitHub\Cavaleri_della_tastiera-main\Cavaleri_della_tastiera-main\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = ChiediTesto.RispostaGiustaNonTogliVite
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ChiediTesto
+[ RUN      ] ChiediTesto.RispostaGiustaNonTogliVite
+
+	Vite: [#] 0/3 [] 3/3 				1:
+					Corretto!
+
+[       OK ] ChiediTesto.RispostaGiustaNonTogliVite (279 ms)
+[----------] 1 test from ChiediTesto (279 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (279 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.31 sec
+----------------------------------------------------------
+Test Passed.
+"ChiediTesto.RispostaGiustaNonTogliVite" end time: Nov 16 21:01 ora solare Europa occidentale
+"ChiediTesto.RispostaGiustaNonTogliVite" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/21 Testing: Checklife.ConViteRimasteNonFaNulla
+7/21 Test: Checklife.ConViteRimasteNonFaNulla
+Command: "C:/Users/giova/Documents/GitHub/Cavaleri_della_tastiera-main/Cavaleri_della_tastiera-main/build/run_tests.exe" "--gtest_filter=Checklife.ConViteRimasteNonFaNulla" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/giova/Documents/GitHub/Cavaleri_della_tastiera-main/Cavaleri_della_tastiera-main/build
+"Checklife.ConViteRimasteNonFaNulla" start time: Nov 16 21:01 ora solare Europa occidentale
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\giova\Documents\GitHub\Cavaleri_della_tastiera-main\Cavaleri_della_tastiera-main\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = Checklife.ConViteRimasteNonFaNulla
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Checklife
+[ RUN      ] Checklife.ConViteRimasteNonFaNulla
+[       OK ] Checklife.ConViteRimasteNonFaNulla (0 ms)
+[----------] 1 test from Checklife (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"Checklife.ConViteRimasteNonFaNulla" end time: Nov 16 21:01 ora solare Europa occidentale
+"Checklife.ConViteRimasteNonFaNulla" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/21 Testing: Quiz.PerdereUltimaVitaPortaAlGameOverEdEsceConN
+8/21 Test: Quiz.PerdereUltimaVitaPortaAlGameOverEdEsceConN
+Command: "C:/Users/giova/Documents/GitHub/Cavaleri_della_tastiera-main/Cavaleri_della_tastiera-main/build/run_tests.exe" "--gtest_filter=Quiz.PerdereUltimaVitaPortaAlGameOverEdEsceConN" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/giova/Documents/GitHub/Cavaleri_della_tastiera-main/Cavaleri_della_tastiera-main/build
+"Quiz.PerdereUltimaVitaPortaAlGameOverEdEsceConN" start time: Nov 16 21:01 ora solare Europa occidentale
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\giova\Documents\GitHub\Cavaleri_della_tastiera-main\Cavaleri_della_tastiera-main\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = Quiz.PerdereUltimaVitaPortaAlGameOverEdEsceConN
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Quiz
+[ RUN      ] Quiz.PerdereUltimaVitaPortaAlGameOverEdEsceConN
+Running main() from C:\Users\giova\Documents\GitHub\Cavaleri_della_tastiera-main\Cavaleri_della_tastiera-main\build\_deps\googletest-src\googletest\src\gtest_main.cc
+
+	Vite: [#] 2/3 [] 1/3   				A cosa serve la printf?
+  				A) Stampa il testo su schermo
+  				B) Legge un numero intero inserito dall'utente
+  				C) Permette di eseguire determinate istruzioni solo se una condizione specificata e' vera
+  				:
+  				Risposta sbagliata! 
+  				Hai perso una vita! 
+  				Adesso hai 0 vite 
+
+
+  				GGGGGGG   AAAAAA  MMM MMM   EEEEEEE    OOOOO   VV     VV  EEEEEEE  RRRRRR 	 	 
+  				G         A    A  MM M MM   E         O     O   VV   VV   E        R     R	 	  
+  				G   GGG   AAAAAA  MM M MM   EEEEE     O     O    VV VV    EEEEE    RRRRRR	 	   
+  				G     G   A    A  MM   MM   E         O     O     VVV     E        R   RR	 	   
+  				GGGGGGG   A    A  MM   MM   EEEEEEE    OOOOO       V      EEEEEEE  R     R	 	  
+
+  				Vuoi riprovare? (y/n): [       OK ] Quiz.PerdereUltimaVitaPortaAlGameOverEdEsceConN (2357 ms)
+[----------] 1 test from Quiz (2357 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (2357 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   2.38 sec
+----------------------------------------------------------
+Test Passed.
+"Quiz.PerdereUltimaVitaPortaAlGameOverEdEsceConN" end time: Nov 16 21:01 ora solare Europa occidentale
+"Quiz.PerdereUltimaVitaPortaAlGameOverEdEsceConN" time elapsed: 00:00:02
+----------------------------------------------------------
+
+9/21 Testing: Save.FileIncrementaESalva
+9/21 Test: Save.FileIncrementaESalva
+Command: "C:/Users/giova/Documents/GitHub/Cavaleri_della_tastiera-main/Cavaleri_della_tastiera-main/build/run_tests.exe" "--gtest_filter=Save.FileIncrementaESalva" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/giova/Documents/GitHub/Cavaleri_della_tastiera-main/Cavaleri_della_tastiera-main/build
+"Save.FileIncrementaESalva" start time: Nov 16 21:01 ora solare Europa occidentale
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\giova\Documents\GitHub\Cavaleri_della_tastiera-main\Cavaleri_della_tastiera-main\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = Save.FileIncrementaESalva
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Save
+[ RUN      ] Save.FileIncrementaESalva
+[       OK ] Save.FileIncrementaESalva (8 ms)
+[----------] 1 test from Save (8 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (8 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"Save.FileIncrementaESalva" end time: Nov 16 21:01 ora solare Europa occidentale
+"Save.FileIncrementaESalva" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/21 Testing: Save.ReaLeggeIlSalvataggioEsistente
+10/21 Test: Save.ReaLeggeIlSalvataggioEsistente
+Command: "C:/Users/giova/Documents/GitHub/Cavaleri_della_tastiera-main/Cavaleri_della_tastiera-main/build/run_tests.exe" "--gtest_filter=Save.ReaLeggeIlSalvataggioEsistente" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/giova/Documents/GitHub/Cavaleri_della_tastiera-main/Cavaleri_della_tastiera-main/build
+"Save.ReaLeggeIlSalvataggioEsistente" start time: Nov 16 21:01 ora solare Europa occidentale
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\giova\Documents\GitHub\Cavaleri_della_tastiera-main\Cavaleri_della_tastiera-main\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = Save.ReaLeggeIlSalvataggioEsistente
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Save
+[ RUN      ] Save.ReaLeggeIlSalvataggioEsistente
+[       OK ] Save.ReaLeggeIlSalvataggioEsistente (6 ms)
+[----------] 1 test from Save (6 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (6 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"Save.ReaLeggeIlSalvataggioEsistente" end time: Nov 16 21:01 ora solare Europa occidentale
+"Save.ReaLeggeIlSalvataggioEsistente" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/21 Testing: Save.ReaSenzaFileCreaIlSalvataggioENonVaInCrash
+11/21 Test: Save.ReaSenzaFileCreaIlSalvataggioENonVaInCrash
+Command: "C:/Users/giova/Documents/GitHub/Cavaleri_della_tastiera-main/Cavaleri_della_tastiera-main/build/run_tests.exe" "--gtest_filter=Save.ReaSenzaFileCreaIlSalvataggioENonVaInCrash" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/giova/Documents/GitHub/Cavaleri_della_tastiera-main/Cavaleri_della_tastiera-main/build
+"Save.ReaSenzaFileCreaIlSalvataggioENonVaInCrash" start time: Nov 16 21:01 ora solare Europa occidentale
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\giova\Documents\GitHub\Cavaleri_della_tastiera-main\Cavaleri_della_tastiera-main\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = Save.ReaSenzaFileCreaIlSalvataggioENonVaInCrash
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Save
+[ RUN      ] Save.ReaSenzaFileCreaIlSalvataggioENonVaInCrash
+Running main() from C:\Users\giova\Documents\GitHub\Cavaleri_della_tastiera-main\Cavaleri_della_tastiera-main\build\_deps\googletest-src\googletest\src\gtest_main.cc
+[       OK ] Save.ReaSenzaFileCreaIlSalvataggioENonVaInCrash (32 ms)
+[----------] 1 test from Save (32 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (32 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"Save.ReaSenzaFileCreaIlSalvataggioENonVaInCrash" end time: Nov 16 21:01 ora solare Europa occidentale
+"Save.ReaSenzaFileCreaIlSalvataggioENonVaInCrash" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/21 Testing: Domande.Livello1
+12/21 Test: Domande.Livello1
+Command: "C:/Users/giova/Documents/GitHub/Cavaleri_della_tastiera-main/Cavaleri_della_tastiera-main/build/run_tests.exe" "--gtest_filter=Domande.Livello1" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/giova/Documents/GitHub/Cavaleri_della_tastiera-main/Cavaleri_della_tastiera-main/build
+"Domande.Livello1" start time: Nov 16 21:01 ora solare Europa occidentale
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\giova\Documents\GitHub\Cavaleri_della_tastiera-main\Cavaleri_della_tastiera-main\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = Domande.Livello1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Domande
+[ RUN      ] Domande.Livello1
+[       OK ] Domande.Livello1 (0 ms)
+[----------] 1 test from Domande (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"Domande.Livello1" end time: Nov 16 21:01 ora solare Europa occidentale
+"Domande.Livello1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/21 Testing: Domande.Livello2
+13/21 Test: Domande.Livello2
+Command: "C:/Users/giova/Documents/GitHub/Cavaleri_della_tastiera-main/Cavaleri_della_tastiera-main/build/run_tests.exe" "--gtest_filter=Domande.Livello2" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/giova/Documents/GitHub/Cavaleri_della_tastiera-main/Cavaleri_della_tastiera-main/build
+"Domande.Livello2" start time: Nov 16 21:01 ora solare Europa occidentale
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\giova\Documents\GitHub\Cavaleri_della_tastiera-main\Cavaleri_della_tastiera-main\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = Domande.Livello2
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Domande
+[ RUN      ] Domande.Livello2
+[       OK ] Domande.Livello2 (0 ms)
+[----------] 1 test from Domande (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"Domande.Livello2" end time: Nov 16 21:01 ora solare Europa occidentale
+"Domande.Livello2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+14/21 Testing: Domande.Livello3
+14/21 Test: Domande.Livello3
+Command: "C:/Users/giova/Documents/GitHub/Cavaleri_della_tastiera-main/Cavaleri_della_tastiera-main/build/run_tests.exe" "--gtest_filter=Domande.Livello3" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/giova/Documents/GitHub/Cavaleri_della_tastiera-main/Cavaleri_della_tastiera-main/build
+"Domande.Livello3" start time: Nov 16 21:01 ora solare Europa occidentale
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\giova\Documents\GitHub\Cavaleri_della_tastiera-main\Cavaleri_della_tastiera-main\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = Domande.Livello3
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Domande
+[ RUN      ] Domande.Livello3
+[       OK ] Domande.Livello3 (0 ms)
+[----------] 1 test from Domande (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"Domande.Livello3" end time: Nov 16 21:01 ora solare Europa occidentale
+"Domande.Livello3" time elapsed: 00:00:00
+----------------------------------------------------------
+
+15/21 Testing: Domande.Livello4
+15/21 Test: Domande.Livello4
+Command: "C:/Users/giova/Documents/GitHub/Cavaleri_della_tastiera-main/Cavaleri_della_tastiera-main/build/run_tests.exe" "--gtest_filter=Domande.Livello4" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/giova/Documents/GitHub/Cavaleri_della_tastiera-main/Cavaleri_della_tastiera-main/build
+"Domande.Livello4" start time: Nov 16 21:01 ora solare Europa occidentale
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\giova\Documents\GitHub\Cavaleri_della_tastiera-main\Cavaleri_della_tastiera-main\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = Domande.Livello4
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Domande
+[ RUN      ] Domande.Livello4
+[       OK ] Domande.Livello4 (0 ms)
+[----------] 1 test from Domande (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"Domande.Livello4" end time: Nov 16 21:01 ora solare Europa occidentale
+"Domande.Livello4" time elapsed: 00:00:00
+----------------------------------------------------------
+
+16/21 Testing: Domande.Livello5
+16/21 Test: Domande.Livello5
+Command: "C:/Users/giova/Documents/GitHub/Cavaleri_della_tastiera-main/Cavaleri_della_tastiera-main/build/run_tests.exe" "--gtest_filter=Domande.Livello5" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/giova/Documents/GitHub/Cavaleri_della_tastiera-main/Cavaleri_della_tastiera-main/build
+"Domande.Livello5" start time: Nov 16 21:01 ora solare Europa occidentale
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\giova\Documents\GitHub\Cavaleri_della_tastiera-main\Cavaleri_della_tastiera-main\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = Domande.Livello5
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Domande
+[ RUN      ] Domande.Livello5
+[       OK ] Domande.Livello5 (0 ms)
+[----------] 1 test from Domande (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"Domande.Livello5" end time: Nov 16 21:01 ora solare Europa occidentale
+"Domande.Livello5" time elapsed: 00:00:00
+----------------------------------------------------------
+
+17/21 Testing: Domande.Livello6
+17/21 Test: Domande.Livello6
+Command: "C:/Users/giova/Documents/GitHub/Cavaleri_della_tastiera-main/Cavaleri_della_tastiera-main/build/run_tests.exe" "--gtest_filter=Domande.Livello6" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/giova/Documents/GitHub/Cavaleri_della_tastiera-main/Cavaleri_della_tastiera-main/build
+"Domande.Livello6" start time: Nov 16 21:01 ora solare Europa occidentale
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\giova\Documents\GitHub\Cavaleri_della_tastiera-main\Cavaleri_della_tastiera-main\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = Domande.Livello6
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Domande
+[ RUN      ] Domande.Livello6
+[       OK ] Domande.Livello6 (0 ms)
+[----------] 1 test from Domande (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"Domande.Livello6" end time: Nov 16 21:01 ora solare Europa occidentale
+"Domande.Livello6" time elapsed: 00:00:00
+----------------------------------------------------------
+
+18/21 Testing: Domande.Livello7
+18/21 Test: Domande.Livello7
+Command: "C:/Users/giova/Documents/GitHub/Cavaleri_della_tastiera-main/Cavaleri_della_tastiera-main/build/run_tests.exe" "--gtest_filter=Domande.Livello7" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/giova/Documents/GitHub/Cavaleri_della_tastiera-main/Cavaleri_della_tastiera-main/build
+"Domande.Livello7" start time: Nov 16 21:01 ora solare Europa occidentale
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\giova\Documents\GitHub\Cavaleri_della_tastiera-main\Cavaleri_della_tastiera-main\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = Domande.Livello7
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Domande
+[ RUN      ] Domande.Livello7
+[       OK ] Domande.Livello7 (0 ms)
+[----------] 1 test from Domande (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"Domande.Livello7" end time: Nov 16 21:01 ora solare Europa occidentale
+"Domande.Livello7" time elapsed: 00:00:00
+----------------------------------------------------------
+
+19/21 Testing: Domande.Livello8
+19/21 Test: Domande.Livello8
+Command: "C:/Users/giova/Documents/GitHub/Cavaleri_della_tastiera-main/Cavaleri_della_tastiera-main/build/run_tests.exe" "--gtest_filter=Domande.Livello8" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/giova/Documents/GitHub/Cavaleri_della_tastiera-main/Cavaleri_della_tastiera-main/build
+"Domande.Livello8" start time: Nov 16 21:01 ora solare Europa occidentale
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\giova\Documents\GitHub\Cavaleri_della_tastiera-main\Cavaleri_della_tastiera-main\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = Domande.Livello8
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Domande
+[ RUN      ] Domande.Livello8
+[       OK ] Domande.Livello8 (0 ms)
+[----------] 1 test from Domande (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"Domande.Livello8" end time: Nov 16 21:01 ora solare Europa occidentale
+"Domande.Livello8" time elapsed: 00:00:00
+----------------------------------------------------------
+
+20/21 Testing: Domande.Livello9
+20/21 Test: Domande.Livello9
+Command: "C:/Users/giova/Documents/GitHub/Cavaleri_della_tastiera-main/Cavaleri_della_tastiera-main/build/run_tests.exe" "--gtest_filter=Domande.Livello9" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/giova/Documents/GitHub/Cavaleri_della_tastiera-main/Cavaleri_della_tastiera-main/build
+"Domande.Livello9" start time: Nov 16 21:01 ora solare Europa occidentale
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\giova\Documents\GitHub\Cavaleri_della_tastiera-main\Cavaleri_della_tastiera-main\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = Domande.Livello9
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Domande
+[ RUN      ] Domande.Livello9
+[       OK ] Domande.Livello9 (0 ms)
+[----------] 1 test from Domande (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"Domande.Livello9" end time: Nov 16 21:01 ora solare Europa occidentale
+"Domande.Livello9" time elapsed: 00:00:00
+----------------------------------------------------------
+
+21/21 Testing: Domande.BossScelteEBlankSonoValidi
+21/21 Test: Domande.BossScelteEBlankSonoValidi
+Command: "C:/Users/giova/Documents/GitHub/Cavaleri_della_tastiera-main/Cavaleri_della_tastiera-main/build/run_tests.exe" "--gtest_filter=Domande.BossScelteEBlankSonoValidi" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/giova/Documents/GitHub/Cavaleri_della_tastiera-main/Cavaleri_della_tastiera-main/build
+"Domande.BossScelteEBlankSonoValidi" start time: Nov 16 21:01 ora solare Europa occidentale
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\giova\Documents\GitHub\Cavaleri_della_tastiera-main\Cavaleri_della_tastiera-main\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = Domande.BossScelteEBlankSonoValidi
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Domande
+[ RUN      ] Domande.BossScelteEBlankSonoValidi
+[       OK ] Domande.BossScelteEBlankSonoValidi (0 ms)
+[----------] 1 test from Domande (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"Domande.BossScelteEBlankSonoValidi" end time: Nov 16 21:01 ora solare Europa occidentale
+"Domande.BossScelteEBlankSonoValidi" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Nov 16 21:01 ora solare Europa occidentale

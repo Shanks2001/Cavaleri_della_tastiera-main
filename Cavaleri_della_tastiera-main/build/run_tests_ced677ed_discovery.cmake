@@ -1,0 +1,20 @@
+include("C:/Users/giova/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/share/cmake-4.4/Modules/GoogleTestAddTests.cmake")
+gtest_discover_tests_impl(
+  TEST_TARGET [==[run_tests]==]
+  TEST_EXECUTABLE [==[C:/Users/giova/Documents/GitHub/Cavaleri_della_tastiera-main/Cavaleri_della_tastiera-main/build/run_tests.exe]==]
+  TEST_EXECUTOR [==[]==]
+  TEST_WORKING_DIR [==[C:/Users/giova/Documents/GitHub/Cavaleri_della_tastiera-main/Cavaleri_della_tastiera-main/build]==]
+  TEST_EXTRA_ARGS [==[]==]
+  TEST_PROPERTIES [==[]==]
+  TEST_PREFIX [==[]==]
+  TEST_SUFFIX [==[]==]
+  TEST_FILTER [==[]==]
+  NO_PRETTY_TYPES [==[FALSE]==]
+  NO_PRETTY_VALUES [==[FALSE]==]
+  TEST_LIST [==[run_tests_TESTS]==]
+  CTEST_FILE [==[C:/Users/giova/Documents/GitHub/Cavaleri_della_tastiera-main/Cavaleri_della_tastiera-main/build/run_tests_ced677ed_tests.cmake]==]
+  TEST_DISCOVERY_TIMEOUT [==[30]==]
+  TEST_DISCOVERY_EXTRA_ARGS [==[]==]
+  TEST_XML_OUTPUT_DIR [==[]==]
+  TEST_JSON_OUTPUT_DIR [==[C:/Users/giova/Documents/GitHub/Cavaleri_della_tastiera-main/Cavaleri_della_tastiera-main/build]==]
+)

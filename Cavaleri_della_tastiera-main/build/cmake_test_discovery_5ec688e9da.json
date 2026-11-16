@@ -1,0 +1,153 @@
+{
+  "tests": 21,
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "Scelta",
+      "tests": 2,
+      "testsuite": [
+        {
+          "name": "RiconosceAbcMaiuscoleEMinuscole",
+          "file": "C:\\Users\\giova\\Documents\\GitHub\\Cavaleri_della_tastiera-main\\Cavaleri_della_tastiera-main\\tests\\test_quiz.cpp",
+          "line": 4
+        },
+        {
+          "name": "IgnoraCaratteriNonValidiEPoiAccetta",
+          "file": "C:\\Users\\giova\\Documents\\GitHub\\Cavaleri_della_tastiera-main\\Cavaleri_della_tastiera-main\\tests\\test_quiz.cpp",
+          "line": 11
+        }
+      ]
+    },
+    {
+      "name": "ChiediScelta",
+      "tests": 2,
+      "testsuite": [
+        {
+          "name": "RispostaGiustaNonTogliVite",
+          "file": "C:\\Users\\giova\\Documents\\GitHub\\Cavaleri_della_tastiera-main\\Cavaleri_della_tastiera-main\\tests\\test_quiz.cpp",
+          "line": 16
+        },
+        {
+          "name": "RispostaSbagliataTogliUnaVitaEPoiRiprova",
+          "file": "C:\\Users\\giova\\Documents\\GitHub\\Cavaleri_della_tastiera-main\\Cavaleri_della_tastiera-main\\tests\\test_quiz.cpp",
+          "line": 23
+        }
+      ]
+    },
+    {
+      "name": "ChiediTesto",
+      "tests": 2,
+      "testsuite": [
+        {
+          "name": "RispostaSbagliataTogliUnaVitaEPoiRiprova",
+          "file": "C:\\Users\\giova\\Documents\\GitHub\\Cavaleri_della_tastiera-main\\Cavaleri_della_tastiera-main\\tests\\test_quiz.cpp",
+          "line": 30
+        },
+        {
+          "name": "RispostaGiustaNonTogliVite",
+          "file": "C:\\Users\\giova\\Documents\\GitHub\\Cavaleri_della_tastiera-main\\Cavaleri_della_tastiera-main\\tests\\test_quiz.cpp",
+          "line": 38
+        }
+      ]
+    },
+    {
+      "name": "Checklife",
+      "tests": 1,
+      "testsuite": [
+        {
+          "name": "ConViteRimasteNonFaNulla",
+          "file": "C:\\Users\\giova\\Documents\\GitHub\\Cavaleri_della_tastiera-main\\Cavaleri_della_tastiera-main\\tests\\test_quiz.cpp",
+          "line": 46
+        }
+      ]
+    },
+    {
+      "name": "Quiz",
+      "tests": 1,
+      "testsuite": [
+        {
+          "name": "PerdereUltimaVitaPortaAlGameOverEdEsceConN",
+          "file": "C:\\Users\\giova\\Documents\\GitHub\\Cavaleri_della_tastiera-main\\Cavaleri_della_tastiera-main\\tests\\test_quiz.cpp",
+          "line": 61
+        }
+      ]
+    },
+    {
+      "name": "Save",
+      "tests": 3,
+      "testsuite": [
+        {
+          "name": "FileIncrementaESalva",
+          "file": "C:\\Users\\giova\\Documents\\GitHub\\Cavaleri_della_tastiera-main\\Cavaleri_della_tastiera-main\\tests\\test_save.cpp",
+          "line": 4
+        },
+        {
+          "name": "ReaLeggeIlSalvataggioEsistente",
+          "file": "C:\\Users\\giova\\Documents\\GitHub\\Cavaleri_della_tastiera-main\\Cavaleri_della_tastiera-main\\tests\\test_save.cpp",
+          "line": 12
+        },
+        {
+          "name": "ReaSenzaFileCreaIlSalvataggioENonVaInCrash",
+          "file": "C:\\Users\\giova\\Documents\\GitHub\\Cavaleri_della_tastiera-main\\Cavaleri_della_tastiera-main\\tests\\test_save.cpp",
+          "line": 32
+        }
+      ]
+    },
+    {
+      "name": "Domande",
+      "tests": 10,
+      "testsuite": [
+        {
+          "name": "Livello1",
+          "file": "C:\\Users\\giova\\Documents\\GitHub\\Cavaleri_della_tastiera-main\\Cavaleri_della_tastiera-main\\tests\\test_domande.cpp",
+          "line": 31
+        },
+        {
+          "name": "Livello2",
+          "file": "C:\\Users\\giova\\Documents\\GitHub\\Cavaleri_della_tastiera-main\\Cavaleri_della_tastiera-main\\tests\\test_domande.cpp",
+          "line": 32
+        },
+        {
+          "name": "Livello3",
+          "file": "C:\\Users\\giova\\Documents\\GitHub\\Cavaleri_della_tastiera-main\\Cavaleri_della_tastiera-main\\tests\\test_domande.cpp",
+          "line": 33
+        },
+        {
+          "name": "Livello4",
+          "file": "C:\\Users\\giova\\Documents\\GitHub\\Cavaleri_della_tastiera-main\\Cavaleri_della_tastiera-main\\tests\\test_domande.cpp",
+          "line": 34
+        },
+        {
+          "name": "Livello5",
+          "file": "C:\\Users\\giova\\Documents\\GitHub\\Cavaleri_della_tastiera-main\\Cavaleri_della_tastiera-main\\tests\\test_domande.cpp",
+          "line": 35
+        },
+        {
+          "name": "Livello6",
+          "file": "C:\\Users\\giova\\Documents\\GitHub\\Cavaleri_della_tastiera-main\\Cavaleri_della_tastiera-main\\tests\\test_domande.cpp",
+          "line": 37
+        },
+        {
+          "name": "Livello7",
+          "file": "C:\\Users\\giova\\Documents\\GitHub\\Cavaleri_della_tastiera-main\\Cavaleri_della_tastiera-main\\tests\\test_domande.cpp",
+          "line": 38
+        },
+        {
+          "name": "Livello8",
+          "file": "C:\\Users\\giova\\Documents\\GitHub\\Cavaleri_della_tastiera-main\\Cavaleri_della_tastiera-main\\tests\\test_domande.cpp",
+          "line": 39
+        },
+        {
+          "name": "Livello9",
+          "file": "C:\\Users\\giova\\Documents\\GitHub\\Cavaleri_della_tastiera-main\\Cavaleri_della_tastiera-main\\tests\\test_domande.cpp",
+          "line": 40
+        },
+        {
+          "name": "BossScelteEBlankSonoValidi",
+          "file": "C:\\Users\\giova\\Documents\\GitHub\\Cavaleri_della_tastiera-main\\Cavaleri_della_tastiera-main\\tests\\test_domande.cpp",
+          "line": 42
+        }
+      ]
+    }
+  ]
+}

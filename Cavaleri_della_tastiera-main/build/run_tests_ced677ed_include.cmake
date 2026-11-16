@@ -1,0 +1,5 @@
+if(EXISTS "C:/Users/giova/Documents/GitHub/Cavaleri_della_tastiera-main/Cavaleri_della_tastiera-main/build/run_tests_ced677ed_tests.cmake")
+  include("C:/Users/giova/Documents/GitHub/Cavaleri_della_tastiera-main/Cavaleri_della_tastiera-main/build/run_tests_ced677ed_tests.cmake")
+else()
+  add_test(run_tests_NOT_BUILT run_tests_NOT_BUILT)
+endif()

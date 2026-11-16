@@ -1,4 +1,6 @@
 # Eseguibili compilati
+*.obj
+*.a
 *.exe
 *.out
 main
