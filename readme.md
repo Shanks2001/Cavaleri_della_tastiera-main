@@ -1,70 +1,81 @@
 # Cavalieri della Tastiera
 
-
-Un gioco da terminale in C, in cui il giocatore affronta una serie di livelli a quiz sulla programmazione, culminando in uno scontro finale contro il "BOSS". Il progresso viene salvato su file e il giocatore ha un numero limitato di vite, mostrate a schermo in ogni domanda.
-
-
-## Requisiti
-
-- Un compilatore C (**gcc**). Il progetto è multipiattaforma: compila sia su **Windows** (con MinGW) sia su **Linux/Mac** (gcc/clang preinstallati).
-- Facoltativo: **GNU Make** per usare il `Makefile` incluso (`mingw32-make` su Windows con MinGW, `make` su Linux/Mac).
-
-## Struttura del progetto
-
-| File | Contenuto |
-|---|---|
-| `GAME.h` | Include comuni, costanti (`DELAY`, `MAX`) e prototipi di tutte le funzioni |
-| `main.c` | Punto di ingresso del gioco (`main`) |
-| `platform.h` / `platform.c` | Livello di astrazione multipiattaforma: pulizia schermo, attesa, colori del testo (`clearScreen`, `sleepMs`, `setColor`) |
-| `io_utils.c` | Input utente e stampa "lettera per lettera" (`Scelta`, `printSlowly`, `mostraVite`, `pulisciSchermo`) |
-| `save.c` | Salvataggio e caricamento del progresso (`file`, `rea`) |
-| `screens.c` | Schermate e flusso di gioco: `chiamate_salvate`, `checklife`, `BENVENUTO`, `GAMEOVER`, `END`, `ripeti` |
-| `domande.h` / `domande.c` | Tutte le domande dei livelli 1-9 e del BOSS come **dati** (struct), più il motore di quiz generico (`chiediScelta`, `chiediTesto`) |
-| `levels1.c` | Livelli 1-5 (domande a scelta multipla) |
-| `levels2.c` | Livelli 6-9 (domande a risposta libera, completamento di codice) |
-| `boss.c` | Scontro finale, misto scelta multipla + risposta libera |
-| `Makefile` | Build automatizzata (`make` / `mingw32-make`) |
-
-Le domande non sono scritte a mano dentro la logica dei livelli: sono dati in `domande.c`, letti da un motore di quiz comune (`domande.h`). Aggiungere o modificare una domanda non richiede toccare la logica di gioco.
-
-## Come compilare
-
-**Con Make** (consigliato):
-```bash
-make          # Linux/Mac
-mingw32-make  # Windows con MinGW
-```
-
-**Senza Make**, in alternativa diretta:
-```bash
-gcc *.c -o main       # Linux/Mac
-gcc *.c -o main.exe   # Windows
-```
-
-## Come avviare il gioco
-
-```bash
-./main        # Linux/Mac
-.\main.exe    # Windows (PowerShell)
-```
+Un piccolo quiz da terminale scritto in C. Si passa una serie di livelli con domande di programmazione e alla fine c'è il BOSS. Ho iniziato come esercizio per ripassare il C e poi ho continuato ad aggiungere pezzi.
 
 ## Come si gioca
 
-- Rispondi correttamente alle domande di ogni livello per proseguire. La barra delle vite è visibile prima di ogni domanda.
-- Ogni risposta sbagliata riduce le vite disponibili.
-- Il progresso (livello raggiunto) viene salvato automaticamente in `salva.txt` e ripreso al riavvio.
-- Se le vite finiscono, la partita termina (schermata di Game Over) e puoi scegliere se ricominciare.
-- Superando tutti i livelli si affronta il BOSS finale.
+- I livelli da 1 a 5 sono a scelta multipla (A, B o C).
+- I livelli da 6 a 9 sono a risposta libera: nel codice mostrato manca una parola o un simbolo e va scritto.
+- Alla fine c'è il BOSS, che mischia i due tipi di domanda.
+- Si parte con 3 vite. Ogni risposta sbagliata ne toglie una e, finite le vite, compare il Game Over con la possibilità di riprovare.
+- Il livello raggiunto viene salvato in `salva.txt`, quindi alla prossima partenza si riprende da lì.
+
+Le risposte libere devono essere scritte uguali a come le aspetta il gioco, maiuscole comprese, e senza spazi.
+
+## Requisiti
+
+Basta un compilatore C (gcc). Funziona su Windows con MinGW e su Linux/Mac.
+
+## Compilare e avviare
+
+Con make (su Windows con MinGW è `mingw32-make`):
+
+```
+make
+```
+
+Oppure a mano:
+
+```
+gcc *.c -o main
+```
+
+Poi si avvia con `./main` su Linux/Mac oppure `.\main.exe` su Windows.
+
+## Test
+
+I test sono scritti con GoogleTest e si compilano con CMake. Controllano che le domande siano valide (per esempio che la risposta giusta sia A, B o C), che il salvataggio funzioni e che il quiz tolga le vite quando serve.
+
+```
+cmake -B build -G "MinGW Makefiles"
+cmake --build build
+ctest --test-dir build --output-on-failure
+```
+
+Serve un GCC recente: con le versioni vecchie di MinGW (io avevo la 6.3) GoogleTest non compila. Alla prima configurazione CMake scarica GoogleTest da solo, quindi serve internet e git.
+
+I test durano una decina di secondi perché il gioco scrive il testo lettera per lettera con una piccola pausa, e nei test questa pausa c'è comunque.
+
+## Com'è fatto
+
+| File | Cosa fa |
+|---|---|
+| `main.c` | punto di ingresso |
+| `GAME.h` | include comuni e dichiarazioni |
+| `domande.c`, `domande.h` | tutte le domande come dati, più le funzioni che le fanno |
+| `levels1.c`, `levels2.c` | i livelli 1-5 e 6-9 |
+| `boss.c` | il BOSS |
+| `screens.c` | schermate (benvenuto, game over, fine) e riavvio |
+| `save.c` | salvataggio e caricamento |
+| `io_utils.c` | lettura delle risposte e vite a schermo |
+| `platform.c`, `platform.h` | cose che cambiano tra Windows e Linux (colori, pulizia schermo, pausa) |
+| `tests/` | i test |
+
+Le domande stanno in `domande.c` come tabelle, quindi per aggiungerne o cambiarne una non serve toccare il codice dei livelli.
 
 ## Integrazione continua
 
-Ogni push e pull request sul branch principale vengono compilati automaticamente sia su Linux sia su Windows tramite GitHub Actions (`.github/workflows/build.yml`), per garantire che le modifiche non rompano la build su nessuna delle due piattaforme.
+Su GitHub c'è un workflow (Actions) che compila il progetto a ogni push e a ogni pull request sul ramo principale, sia su Linux sia su Windows. I test per ora li lancio solo in locale.
 
-## Possibili sviluppi futuri
+## Cose da sistemare
 
-- Salvataggio anche delle vite tra una sessione e l'altra.
-- Ordine delle domande e delle opzioni randomizzato per aumentare la rigiocabilità.
-- Un punteggio/tempo di risposta oltre alle sole vite.
+- Dopo il BOSS il salvataggio va a un valore che il gioco non riconosce più, quindi al riavvio non parte nessun livello.
+- Mettere i test nel workflow.
+- Rendere la pausa tra le lettere regolabile, così i test girano in un attimo.
+- Salvare anche le vite tra una sessione e l'altra.
+- Mischiare l'ordine di domande e risposte.
+- Aggiungere un punteggio o il tempo di risposta.
 
-## Autori
+## Autore
+
 Shanks2001
